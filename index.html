@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoCode AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="top-bar">
+      <div class="brand"><span class="brand-icon">🌿</span> EcoCode AI</div>
+      <p>Write cleaner code. Build a greener web.</p>
+      <span class="status"><i></i> AI ready</span>
+    </header>
+
+    <section class="workspace">
+      <div class="editor-panel panel">
+        <div class="panel-tab"><span class="file-dot">🐍</span> main.py <span class="close">×</span></div>
+        <label for="codeInput" class="sr-only">Paste your code here</label>
+        <textarea id="codeInput" spellcheck="false" placeholder="# Paste your code here...&#10;&#10;for user in users:&#10;    for item in items:&#10;        process(user, item)"></textarea>
+        <div class="editor-footer">
+          <span>UTF-8</span><span>Spaces: 2</span><span>Python</span>
+          <button id="analyzeButton">✦ Analyze Code</button>
+        </div>
+      </div>
+
+      <aside class="side-panel">
+        <section class="panel suggestions-panel">
+          <div class="section-heading"><span>🤖 AI Suggestions</span><span id="issueCount">0 issues</span></div>
+          <div id="suggestions" class="suggestions" aria-live="polite">
+            <div class="empty-state"><span>🌱</span><p>Ready to review your code for energy-saving opportunities.</p></div>
+          </div>
+        </section>
+
+        <section class="score-card">
+          <div><p>🌱 GREEN SCORE</p><strong id="score">100</strong><span>/100</span></div>
+          <div class="score-ring" id="scoreRing"><span id="scoreLabel">Excellent</span></div>
+          <p id="scoreMessage">Your code is looking energy-efficient!</p>
+          <div class="progress-track" aria-label="Green score progress"><div id="scoreProgress" class="progress-fill"></div></div>
+        </section>
+      </aside>
+    </section>
+
+    <section class="tips-section panel">
+      <div class="section-heading"><span>🌿 Sustainability Tips</span></div>
+      <div class="tips-grid">
+        <article><span>⚡</span><h3>Reduce repetition</h3><p>Cache results and avoid doing the same work repeatedly.</p></article>
+        <article><span>🔁</span><h3>Choose efficient loops</h3><p>Keep loops small and avoid nested loops when possible.</p></article>
+        <article><span>📦</span><h3>Import intentionally</h3><p>Only load the libraries and features your project needs.</p></article>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
