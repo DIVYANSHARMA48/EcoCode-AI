@@ -1,3 +1,8 @@
+## Prototype Screenshot
+
+![EcoCode AI Prototype](prototype.png)
+<img width="1882" height="971" alt="image" src="https://github.com/user-attachments/assets/79ce3ef2-cb62-4a7a-9b69-e994717b04f3" />
+
 # 🌿 EcoCode AI – AI-Powered Sustainable Coding Assistant
 
 > AI for Sustainability Project | 1M1B Virtual Internship (IBM SkillsBuild × AICTE)
