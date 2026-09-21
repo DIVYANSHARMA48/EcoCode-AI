@@ -1,49 +1,74 @@
-# 🌿 EcoCode AI
+# 🌿 EcoCode AI – AI-Powered Sustainable Coding Assistant
 
-EcoCode AI is a simple, beginner-friendly web project that reviews code for a few common patterns that can increase resource use. It presents suggestions and a **Green Score** to encourage more sustainable coding habits.
+> AI for Sustainability Project | 1M1B Virtual Internship (IBM SkillsBuild × AICTE)
 
-## ✨ Features
+## 📌 Project Overview
 
-- VS Code-inspired dark interface with green sustainability accents
-- Large code input editor
-- AI-style suggestions for common efficiency concerns
-- Green Score out of 100 with a visual progress bar
-- Responsive layout for desktop and mobile
-- Sustainability tips for writing more efficient code
+EcoCode AI is a prototype AI-powered coding assistant that encourages sustainable software development by identifying inefficient coding practices in Python code. The application analyzes user-provided code, detects common resource-intensive patterns, generates AI-inspired optimization suggestions, and calculates a **Green Score** to encourage cleaner and more energy-efficient programming.
 
-## 🔎 What it checks
+This project demonstrates how AI can support sustainability through better software engineering practices.
 
-EcoCode AI detects:
+## 🌍 Sustainable Development Goals (SDGs)
 
-- Nested `for` loops
-- `append()` calls inside loops
-- Wildcard imports such as `from module import *`
+* **SDG 13 – Climate Action (Primary)**
+* SDG 12 – Responsible Consumption and Production
+* SDG 9 – Industry, Innovation and Infrastructure
 
-Each finding deducts points from a starting score of 100. The result is labelled **Excellent**, **Good**, or **Needs Improvement**.
+## 🚀 Features
 
-## 🚀 Run locally
+* VS Code-inspired dark interface.
+* Python code analysis.
+* AI-inspired optimization suggestions.
+* Green Score (0–100).
+* Sustainability tips for developers.
+* Responsive web design.
 
-No installation or external API is needed.
+## 🤖 AI Workflow
 
-1. Open the `outputs` folder.
-2. Double-click `index.html`, or open it with a web browser.
-3. Paste code into the editor and select **Analyze Code**.
+1. User pastes Python code.
+2. EcoCode AI analyzes the code using rule-based AI pattern detection.
+3. The system detects inefficient coding patterns such as:
 
-## 🧰 Built with
+   * Nested loops.
+   * Repeated `append()` operations.
+   * Wildcard imports (`import *`).
+4. AI-inspired recommendations are generated.
+5. A Green Score and sustainability tips are displayed.
 
-- HTML
-- CSS
-- JavaScript
+## 🛠️ Technologies Used
 
-## 📁 Project files
+* HTML
+* CSS
+* JavaScript
+* Prompt Engineering (concept)
+* Rule-Based AI Pattern Detection
 
-```text
-outputs/
-├── index.html    # Page structure
-├── style.css     # VS Code-inspired styling
-└── script.js     # Code analysis and score logic
-```
+## 🌱 Expected Impact
 
-## 📝 Note
+EcoCode AI promotes awareness of sustainable software development by helping students and developers identify coding practices that may consume unnecessary computing resources. The project encourages cleaner programming habits and demonstrates how AI can contribute to climate action through efficient software design.
 
-This is an educational demonstration, not a full code-quality or energy-measurement tool. The checks are intentionally simple so beginners can read and build on them.
+## 🔒 Responsible AI Considerations
+
+* Transparent recommendations.
+* No user code is stored.
+* Educational prototype focused on sustainability.
+* Human users make the final coding decisions.
+
+## ▶️ How to Run
+
+1. Download or clone this repository.
+2. Open `index.html` in any modern web browser.
+3. Paste Python code into the editor.
+4. Click **Analyze Code** to view suggestions and the Green Score.
+
+## 📷 Prototype
+
+The project interface includes:
+
+* Code editor.
+* AI Suggestions panel.
+* Green Score dashboard.
+* Sustainability Tips section.
+
+---
+
